@@ -220,6 +220,7 @@ uTorrent Setup
 3. Set `Run Program` option
     - Go to `Options > Preferences > Advanced > Run Program`
     - Enter the following `"FullPathToPython" "FullPathTouTorrentPostProcess.py"` with command line parameters: `"%L" "%T" "%D" "%K" "%F" "%I" "%N"` in that exact order.
+
 examples;
     - Linux: "/usr/bin/python" "/opt/sickbeard_mp4_automator/uTorrentPostProcess.py" "%L" "%T" "%D" "%K" "%F" "%I" "%N"
     - Windows: "c:\python27\python.exe" "c:\sickbeard_mp4_automator\uTorrentPostProcess.py" "%L" "%T" "%D" "%K" "%F" "%I" "%N"
